@@ -15,6 +15,8 @@ SQLiteDatabase db=SQLiteDatabase.openDatabase(cfg, null, null);
 
 Done, now you can use sql function from your extension.
 
+### Build using NDK with https://github.com/sjitech/android-gcc-toolchain helper  on ubuntu AWS Compute Cloud
+
 ## Credits:
 * https://github.com/requery/sqlite-android
 * https://github.com/mateusza/SQLite-Levenshtein
