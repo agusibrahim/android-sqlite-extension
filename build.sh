@@ -6,7 +6,7 @@ CCMIPS=/opt/ndk/std-toolchains/android-9-mips/bin/gcc
 CCMIPS64=/opt/ndk/std-toolchains/android-21-mips64/bin/gcc
 DBU=$(pwd)/build
 
-for i in "damerau_levenshtein" "levenshtein" "soundex" "compress" "spellfix" "fuzzer" "nextchar" "percentile" "amatch" "sha1" "fileio" "closure" "scrub" "regexp" "csv" "json1" "shathree" "vtshim" "wholenumber" "rot13" "carray" "series" "remember"
+for i in "damerau_levenshtein" "levenshtein" "soundex" "compress" "spellfix" "fuzzer" "nextchar" "percentile" "amatch" "sha1" "fileio" "closure" "scrub" "regexp" "csv" "json1" "shathree" "vtshim" "wholenumber" "rot13" "carray" "series" "remember" "liblevenshtein" "metaphone"
 do
   $CCX86 -shared -fPIC -Wall -I/agus/sqlite-amalgamation-3180000/SQLiteFuzzySearch $i.c -o $DBU/$i"_x86.so"
   $CCARM -shared -fPIC -Wall -I/agus/sqlite-amalgamation-3180000/SQLiteFuzzySearch $i.c -o $DBU/$i"_arm.so"
