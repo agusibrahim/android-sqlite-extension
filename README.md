@@ -13,6 +13,7 @@ SQLiteDatabase db=SQLiteDatabase.openDatabase(cfg, null, null);
 Done, now you can use sql function from your extension.
 
 ## Credits:
+* https://github.com/requery/sqlite-android
 * https://github.com/mateusza/SQLite-Levenshtein
 * SQLite Source Code (https://sqlite.org/2017/sqlite-src-3180000.zip)
 * https://github.com/evsukov89/SQLiteFuzzySearch
