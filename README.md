@@ -22,4 +22,6 @@ Done, now you can use sql function from your extension.
 * https://github.com/mateusza/SQLite-Levenshtein
 * SQLite Source Code (https://sqlite.org/2017/sqlite-src-3180000.zip)
 * https://github.com/evsukov89/SQLiteFuzzySearch
-
+* [brodybits / sqlite3-base64](https://github.com/brodybits/sqlite3-base64) (Unlicense, public domain)
+* [brodybits / libb64-encode](https://github.com/brodybits/libb64-encode) (based on <http://libb64.sourceforge.net/> by Chris Venter, public domain)
+* https://github.com/mayflower/sqlite-reverse-string
